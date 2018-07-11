@@ -15,7 +15,7 @@ console.log('El número creado por "el juego":  ', randomNumber);
 function showNumber () {
   conterStart = conterStart +1;
   conterChance.innerHTML= conterStart;
-  if (inputUSer.value == randomNumber) {
+  if (inputUSer.value === randomNumber) {
     messageFeedback.value = '¡HAS GANADO, CAMPEONA!';
     return(messageFeedback.value)
   } else if (inputUSer.value > randomNumber) {
